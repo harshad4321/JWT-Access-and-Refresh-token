@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start":"nodemon server.js",
-    "starter2":"nodemon server2.js",
+    "startAuth":"nodemon authserver.js",
     "test": "echo \"Error: no test specified\" && exit 1"
    
   },
