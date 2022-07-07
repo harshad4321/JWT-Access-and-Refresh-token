@@ -1,7 +1,8 @@
 GET http://localhost:3000/posts
 ###
-POST http://localhost:3000/login
-content-Content-Type: application/json
+
+post  http://localhost:3000/login
+Content-Type: application/json
 {
     "username":"Novabella"
 }
