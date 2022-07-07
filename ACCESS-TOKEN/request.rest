@@ -1,9 +1,21 @@
-GET http://localhost:3000/posts
+##accesstoken
+
+get http://localhost:3000/posts
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiam9obiIsImlhdCI6MTY1NzE5NTc1Nn0.0N7VQ7asD0EgRYdXqqA6kA36BfOfRRDG-MCMIh5N6pI
 ###
-
 POST  http://localhost:3000/login
 Content-Type: application/json
 {
     "username":"john"
 }
+###
+get http://localhost:4000/posts
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTcyMDI1NDl9._kUTntaj5qIttGkRY6S-07L1NmDUbKLWO5QutugNvUA
+
+###
+POST  http://localhost:4000/login
+Content-Type: application/json
+{
+    "username":"john"
+}
+###
